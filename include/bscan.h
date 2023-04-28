@@ -1,9 +1,5 @@
 #pragma once
 
-#include "hwares/scan_battery.h"
-#include "hwares/scan_cpu.h"
-#include "hwares/scan_disk.h"
-#include "hwares/scan_gpu.h"
-#include "hwares/scan_mainboard.h"
-#include "swares/scan_os.h"
-#include "hwares/scan_ram.h"
+#include "hwares/hwares.h"
+#include "swares/swares.h"
+#include "apheres/apheres.h"
